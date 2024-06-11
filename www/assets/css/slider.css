@@ -2,6 +2,7 @@
     padding: 1rem;
     
 }
+
 .slider-wrapper{
     position: relative;
     /* max-width: 48rem; */
@@ -10,7 +11,7 @@
     margin: 0 auto;
     overflow: hidden;
 }
-.slider{
+.slider, .sliderhome{
     display: flex;
     flex-direction: row;
     /* aspect-ratio: 16/9; */
