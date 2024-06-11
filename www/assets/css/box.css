@@ -4,3 +4,12 @@
     gap: 20px;
 }
 
+.inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro {
+    width: 50%;
+}
