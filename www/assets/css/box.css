@@ -31,6 +31,8 @@
     border-bottom: none;
 }
 
+/* STICKY NAVBAR */
+
 .navigation{
     display: flex;
     flex-direction: row;
@@ -38,6 +40,12 @@
     align-items: center;
     gap: 50px;
     text-align: center;
+
+    position: sticky;
+    bottom: 0;
+    /* left: 0; */
+    /* width: 100%; */
+    background-color: rgb(43 47 50 / 85%);
 }
 
 .options{
